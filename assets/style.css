@@ -71,3 +71,15 @@ footer, .push {
     margin: 20px;
     padding: 20px;
 }
+
+#card2 {
+    float: left;
+}
+
+#card1 {
+    float: left;
+}
+
+#card3 {
+    clear: both;
+}
