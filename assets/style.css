@@ -112,25 +112,6 @@ nav {
 }
 
 
-.thumbnail {
-    position: relative;
-    margin-bottom: 40px;
-    cursor: pointer;
-    transition: all .8s ease;
-}
-
-.thumbnail img {
-    max-width: 270px;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
 .label {
     position: absolute;
     bottom: 20px;
@@ -168,83 +149,7 @@ input {
     cursor: pointer;
 }
 
-#sideBar {
-    width: 210px;
-    padding: 40px 30px 40px 30px;
-    background-color: white;
-    box-shadow: 4px 4px 15px 2px #333333;
-    float: right;
-}
 
-#sideBar a {
-    text-decoration: none;
-}
-
-.socialIcon {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    margin-top: 20px;
-}
-
-.socialIcon div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 60px;
-    height: 60px;
-}
-
-#gitHubIconBlack {
-    background-image: url("../images/icon/github_black.png");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#gitHubIconRed {
-    background-image: url("../images/icon/github_red.png");
-    background-size: contain;
-}
-
-#gitHubIconBlack:hover {
-    opacity: 0;
-}
-
-#middleIcon {
-    margin: 0px 10px 0px 10px;
-}
-
-#linkedinIconBlack {
-    background-image: url("../images/icon/linkedin_black.png");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#linkedinIconRed {
-    background-image: url("../images/icon/linkedin_red.png");
-    background-size: contain;
-}
-
-#linkedinIconBlack:hover {
-    opacity: 0;
-}
-
-#stackIconBlack {
-    background-image: url("../images/icon/stackoverflow_black.png");
-    background-size: contain;
-    transition: opacity .3s ease;
-}
-
-#stackIconRed {
-    background-image: url("../images/icon/stackoverflow_red.png");
-    background-size: contain;
-}
-
-#stackIconBlack:hover {
-    opacity: 0;
-}
-/* Height of the footer and height of the blank div that is added to the body to stop the footer from overlapping body content. */
 footer, .push {
     height: 80px;
 }
@@ -293,36 +198,6 @@ footer {
         margin: 0px 0px 20px 0px;
     }
     
-    .thumbnail {
-        position: relative;
-        margin-bottom: 40px;
-        cursor: pointer;
-        transition: all .8s ease;
-    }
-
-    .thumbnail img {
-        max-width: 380px;
-    }
-    
-    .left {
-        float: none;
-    }
-    
-    .right {
-        float: none;
-    }
-
-    #middleIcon {
-        margin: 0px 6px 0px 6px;
-    }
-
-    #sideBar {
-        width: 200px;
-        padding: 40px 20px 40px 20px;
-        background-color: white;
-        box-shadow: 4px 4px 15px 2px #333333;
-        float: right;
-    }
 }
 @media screen and (max-width: 768px) {
     header section {
@@ -360,36 +235,6 @@ footer {
         margin: 0px 20px 10px 0px;
     }
 
-    .thumbnail {
-        position: relative;
-        margin-bottom: 40px;
-        cursor: pointer;
-        transition: all .8s ease;
-    }
-
-    .thumbnail img {
-        max-width: 250px;
-    }
-
-    .left {
-        float: left;
-    }
-
-    .right {
-        float: right;
-    }
-
-    #middleIcon {
-        margin: 0px 10px 0px 10px;
-    }
-
-    #sideBar {
-        width: 560px;
-        margin-bottom: 50px;
-        padding: 40px 20px 40px 20px;
-        background-color: white;
-        box-shadow: 4px 4px 15px 2px #333333;
-    }
 }
 @media screen and (max-width: 640px) {
     header section {
@@ -447,37 +292,6 @@ footer {
         margin: 0px 0px 20px 0px;
     }
 
-    .thumbnail {
-        position: relative;
-        margin-bottom: 40px;
-        cursor: pointer;
-        transition: all .8s ease;
-    }
-
-    .thumbnail img {
-        max-width: 100%;
-    }
-    
-    .left {
-        float: none;
-    }
-    
-    .right {
-        float: none;
-    }
-
-    #middleIcon {
-        margin: 0px 10px 0px 10px;
-    }
-
-    #sideBar {
-        width: calc(100% - 100px);
-        margin: 0px 0px 50px 30px;
-        padding: 40px 20px 40px 20px;
-        background-color: white;
-        box-shadow: 4px 4px 15px 2px #333333;
-        float: left;
-    }
 }
 
 .card {
