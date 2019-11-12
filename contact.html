@@ -1,67 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Neely Mann</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
     <link type="text/css" rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-
 <body>
     <div id="content">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom navbar-expand{-sm|-md|-lg|-xl}">
-            <a class="navbar-brand" href="#">Neely Mann</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
-                    </li>
-            </div>
-        </nav>
+        <header>
+            <section>
+                <div id="myName">
+                    Neely Mann
+                </div>
+                <nav>
+                    <div id="aboutButton" class="navButton">
+                        <a href="index.html">About</a>
+                    </div>
+                    <div id="portButton" class="navButton">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div id="contactButton" class="navButton">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </section>
+        </header>
         <div id="bodyContent">
             <section id="mainContent">
-                <h1>About Me</h1>
-                <img id="profilePic" src="assets/images/4C2AAD75-C0CA-4CC2-94E1-B932B8005408_1_105_c.jpeg"
-                    alt="My profile picture">
-                <p>
-                    Welcome to my page! I was born in Augusta, Georgia and lived in Waynesboro, Georgia for the first 18
-                    years of my life.
-                    My home county has a total of nine stoplights so you could say it's pretty small. After highschool I
-                    moved to Athens to attend the University of Georgia.
-                    While at UGA, I was part of many on campus organizations such as Delta Zeta, American Medical Studen
-                    Association and UGA miracle.
-                </p>
-                <p>
-                    I received my Bachelor of Science in general biology in the spring of 2019 and have recently moved
-                    to
-                    Atlanta to attend a coding bottcamo hosted by the Georgia Institute of Technology.
-                    After this bootcamp is over, I plan to pursue a job in the development world in some aspect. I'm
-                    excited
-                    to see where this path takes me!
-                </p>
-            </section>
+                <h1>Contact</h1>
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" placeholder="Your Name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="example@yahoo.com"><br>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" id="myTextArea" cols="30" rows="10"></textarea><br>
+                    <input id="submitButton" type="submit" value="Submit">
+                </form>
+              </section>
         </div>
+        
         <div class="push"></div>
     </div>
     <footer>
         <p id="copyright">
+            &copy; Copyright Neely Mann
         </p>
     </footer>
 </body>
-
 </html>
