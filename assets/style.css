@@ -1,0 +1,73 @@
+.navbar {
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 10%;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+#bodyContent {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#mainContent {
+    width: 980px;
+    padding: 40px 30px 40px 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 4px 4px 15px 2px #333333;
+    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    color: black;
+    border-bottom: 3px solid #dddddd;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+#profilePic {
+    width: 240px;
+    height: 240px;
+    float: left;
+    margin: 0px 20px 10px 0px;
+}
+
+footer {
+    background-color: grey;
+    line-height: 80px;
+    color: #CCCCCC;
+    text-align: center;
+}
+
+footer, .push {
+    height: 315px;
+}
+
+
+
+.bg-custom {
+    background-color: grey;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+}
