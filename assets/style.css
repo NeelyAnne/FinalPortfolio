@@ -308,6 +308,9 @@ footer {
 }
 
 #card3 {
-    clear: both;
+    clear: left;
 }
 
+#card4 {
+    float: left;
+}
