@@ -1,60 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Neely Mann</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
-    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
-    <link type="text/css" rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="content">
-        <header>
-            <section>
-                <div id="myName">
-                    Neely Mann
-                </div>
-                <nav>
-                    <div id="aboutButton" class="navButton">
-                        <a href="index.html">About</a>
-                    </div>
-                    <div id="portButton" class="navButton">
-                        <a href="portfolio.html">Portfolio</a>
-                    </div>
-                    <div id="contactButton" class="navButton">
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </nav>
-            </section>
-        </header>
-        <div id="bodyContent">
-            <section id="mainContent">
-                <h1>About Me</h1>
-                <img id="profilePic" src="assets/images/4C2AAD75-C0CA-4CC2-94E1-B932B8005408_1_105_c.jpeg" alt="My profile picture">
-                <p>
-                    Welcome to my page! I was born in Augusta, Georgia and lived in Waynesboro, Georgia for the first 18
-                years of my life.
-                My home county has a total of nine stoplights so you could say it's pretty small. After highschool I
-                moved to Athens to attend the University of Georgia.
-                While at UGA, I was part of many on campus organizations such as Delta Zeta, American Medical Studen
-                Association and UGA miracle.
-                </p>
-                <p>
-                    I received my Bachelor of Science in general biology in the spring of 2019 and have recently moved to
-                Atlanta to attend a coding bottcamo hosted by the Georgia Institute of Technology.
-                After this bootcamp is over, I plan to pursue a job in the development world in some aspect. I'm excited
-                to see where this path takes me!
-                </p>
-            </section>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"
+    />
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link type="text/css" rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+          id="burger"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <h1 class="navbar-item page-header" href="#">
+          Neely Mann
+        </h1>
+        <div class="navbar-end">
+          <a class="navbar-item" href="#">
+            About
+          </a>
+          <a class="navbar-item" href="portfolio.html">
+            Portfolio
+          </a>
+          <a class="navbar-item" href="contact.html">
+            Contact
+          </a>
         </div>
-        <div class="push"></div>
+      </div>
+    </nav>
+    <div class="tile is-ancestor">
+      <div class="tile is-7 tileOne is-parent">
+        <div class="tile is-child box">
+          <img
+            id="about_me_picture"
+            src="assets/images/4C2AAD75-C0CA-4CC2-94E1-B932B8005408_1_105_c.jpeg"
+            alt="Image_of_a_Puppy"
+          />
+          <br />
+          <h2 id="content-header">Neely Mann</h2>
+          <br />
+          <p>Atlanta, Georgia</p>
+          <p>neely.anne@yahoo.com</p>
+          <p>(706)-871-7617</p>
+          <p class="paragraph">
+            Welcome to my page! I was born in Augusta, Georgia and lived in
+            Waynesboro, Georgia for the first 18 years of my life. My home
+            county has a total of nine stoplights so you could say it's pretty
+            small. After highschool I moved to Athens to attend the University
+            of Georgia. While at UGA, I was part of many on campus organizations
+            such as Delta Zeta, American Medical Studen Association and UGA
+            miracle.
+          </p>
+          <p id="parTwo" class="paragraph">
+            I received my Bachelor of Science in general biology in the spring
+            of 2019 and have recently moved to Atlanta to attend a coding
+            bottcamo hosted by the Georgia Institute of Technology. After this
+            bootcamp is over, I plan to pursue a job in the development world in
+            some aspect. I'm excited to see where this path takes me!
+          </p>
+        </div>
+      </div>
+      <div class="tile is-4 is-vertical is-parent tileTwo">
+        <div class="tile is-child box">
+          <p class="title">Click here to see my LinkedIn</p>
+          <a href="https://www.linkedin.com/in/neelymann/" target="_blank">
+            <img
+              class="linkImage"
+              id="linkedInPicture"
+              src="assets/images/linkedin-branding-CONTENT-2019.jpg"
+              alt="LinkedIn Logo"
+          /></a>
+        </div>
+        <div class="tile is-child box">
+          <p class="title">
+            Click here to see my GitHub repositories
+          </p>
+          <a href="https://github.com/NeelyAnne" target="_blank">
+            <img
+              class="linkImage"
+              id="githubPicture"
+              src="assets/images/github2.jpg"
+              alt="Github Logo"
+            />
+          </a>
+        </div>
+      </div>
     </div>
-    <footer>
-        <p id="copyright">
-            &copy; Copyright Neely Mann
-        </p>
-    </footer>
-</body>
+    <script src="js/mobile.js"></script>
+  </body>
 </html>
