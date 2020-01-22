@@ -55,7 +55,13 @@ h2 {
 .card {
   float: left;
   margin: 10px;
+  height: 400px;
+  width: 200px;
 }
 .cardThree {
   clear: left;
+}
+
+.box2 {
+  height: 200px;
 }
